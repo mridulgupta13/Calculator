@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    border: 2px solid black;
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+table{
+    margin: 0 auto;
+}
+
+#display{
+    display: block;
+    font-size: 1.5rem;
+    margin: 10px auto;
+}
+
+button{
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+td{
+    height: 3.2rem;
+    width: 5rem;
+    border: 1px solid black;
+    transition: 100ms;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
